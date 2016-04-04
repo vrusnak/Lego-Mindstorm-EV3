@@ -1,0 +1,9 @@
+C:\Users\Viktor\Desktop\MyLegoProject\MyLegoProject\bin\Debug\MyLegoProject.exe.config
+C:\Users\Viktor\Desktop\MyLegoProject\MyLegoProject\bin\Debug\MyLegoProject.exe
+C:\Users\Viktor\Desktop\MyLegoProject\MyLegoProject\bin\Debug\MyLegoProject.pdb
+C:\Users\Viktor\Desktop\MyLegoProject\MyLegoProject\bin\Debug\LibUsbDotNet.dll
+C:\Users\Viktor\Desktop\MyLegoProject\MyLegoProject\bin\Debug\MonoBrick.dll
+C:\Users\Viktor\Desktop\MyLegoProject\MyLegoProject\bin\Debug\MonoBrick.xml
+C:\Users\Viktor\Desktop\MyLegoProject\MyLegoProject\obj\Debug\MyLegoProject.csprojResolveAssemblyReference.cache
+C:\Users\Viktor\Desktop\MyLegoProject\MyLegoProject\obj\Debug\MyLegoProject.exe
+C:\Users\Viktor\Desktop\MyLegoProject\MyLegoProject\obj\Debug\MyLegoProject.pdb
