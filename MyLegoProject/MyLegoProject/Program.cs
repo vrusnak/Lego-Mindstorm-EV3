@@ -12,7 +12,9 @@ namespace MyLegoProject
     {
         static void Main(string[] args)
         {
-            var ev3 = new Brick<Sensor, Sensor, Sensor, Sensor>("usb");
+            //var ev3 = new Brick<Sensor, Sensor, Sensor, Sensor>("usb"); //USB
+            var ev3 = new Brick<Sensor, Sensor, Sensor, Sensor>("com4"); //Bluetooth
+            //var ev3 = new Brick<Sensor, Sensor, Sensor, Sensor>("wifi"); //WiFi
 
             try
             {

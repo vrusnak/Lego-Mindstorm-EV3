@@ -7,3 +7,10 @@ C:\Users\Viktor\Desktop\MyLegoProject\MyLegoProject\bin\Debug\MonoBrick.xml
 C:\Users\Viktor\Desktop\MyLegoProject\MyLegoProject\obj\Debug\MyLegoProject.csprojResolveAssemblyReference.cache
 C:\Users\Viktor\Desktop\MyLegoProject\MyLegoProject\obj\Debug\MyLegoProject.exe
 C:\Users\Viktor\Desktop\MyLegoProject\MyLegoProject\obj\Debug\MyLegoProject.pdb
+C:\Users\Viktor\Documents\GitHub\Lego-Mindstorm-EV3\MyLegoProject\MyLegoProject\bin\Debug\MyLegoProject.exe.config
+C:\Users\Viktor\Documents\GitHub\Lego-Mindstorm-EV3\MyLegoProject\MyLegoProject\obj\Debug\MyLegoProject.exe
+C:\Users\Viktor\Documents\GitHub\Lego-Mindstorm-EV3\MyLegoProject\MyLegoProject\obj\Debug\MyLegoProject.pdb
+C:\Users\Viktor\Documents\GitHub\Lego-Mindstorm-EV3\MyLegoProject\MyLegoProject\bin\Debug\MyLegoProject.exe
+C:\Users\Viktor\Documents\GitHub\Lego-Mindstorm-EV3\MyLegoProject\MyLegoProject\bin\Debug\MyLegoProject.pdb
+C:\Users\Viktor\Documents\GitHub\Lego-Mindstorm-EV3\MyLegoProject\MyLegoProject\bin\Debug\MonoBrick.xml
+C:\Users\Viktor\Documents\GitHub\Lego-Mindstorm-EV3\MyLegoProject\MyLegoProject\obj\Debug\MyLegoProject.csprojResolveAssemblyReference.cache
