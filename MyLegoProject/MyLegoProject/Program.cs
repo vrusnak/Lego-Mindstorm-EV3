@@ -24,7 +24,7 @@ namespace MyLegoProject
                 //System.Threading.Thread.Sleep(1000);
                 //ev3.MotorA.Off();
 
-                for (int i = 0; i < 10; i++)s
+                for (int i = 0; i < 10; i++)
                 {
                     ev3.MotorA.On(30, 70, true);
                     System.Threading.Thread.Sleep(1000);
