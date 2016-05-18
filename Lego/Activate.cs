@@ -1,49 +1,20 @@
-﻿/// Author: Viktor Rusnak
-/// Date created: 2016-04-05
-
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Forms;
 using MonoBrick.EV3;
 
-namespace LegoMindstormForms
+namespace Lego
 {
-    /// <summary>
-    /// Initialization of the Lego Mindstorm EV3.
-    /// </summary>
-    public partial class MainForm : Form
+    class Activate
     {
         private int counter;
 
         /// <summary>
-        /// Initiates the program.
-        /// </summary>
-        public MainForm()
-        {
-            InitializeComponent();
-            InitGUI();
-            Run();
-        }
-
-        /// <summary>
-        /// Initiates the GUI.
-        /// </summary>
-        private void InitGUI()
-        {
-            this.Text = "Step Counter";
-            this.Show();
-        }
-
-        /// <summary>
         /// Starts the movement of the lever.
         /// </summary>
-        private void Run()
+        public void Run()
         {
             var ev3 = new Brick<Sensor, Sensor, Sensor, Sensor>("com7"); //Bluetooth
             //var ev3 = new Brick<Sensor, Sensor, Sensor, Sensor>("usb"); //USB
@@ -71,12 +42,12 @@ namespace LegoMindstormForms
             }
             catch (Exception ex)
             {
-                lblStepCounter.Text = "Error: \n" + ex.Message;
+                Console.WriteLine("Error: \n" + ex.Message);
             }
             finally
             {
                 ev3.Connection.Close();
-                lblStepCounter.Text = "Success\nSteps: " + counter;
+                Console.WriteLine("Success\nSteps: " + counter);
                 Environment.Exit(0);
             }
         }

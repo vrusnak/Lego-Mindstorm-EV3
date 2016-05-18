@@ -1,0 +1,10 @@
+c:\users\vrusn\onedrive\onenote\visual studio 2015\Projects\Lego\Lego\bin\Debug\Lego.exe.config
+C:\Users\vrusn\Desktop\Lego\Lego\bin\Debug\Lego.exe.config
+C:\Users\vrusn\Desktop\Lego\Lego\obj\Debug\Lego.csprojResolveAssemblyReference.cache
+C:\Users\vrusn\Desktop\Lego\Lego\bin\Debug\Lego.exe
+C:\Users\vrusn\Desktop\Lego\Lego\bin\Debug\Lego.pdb
+C:\Users\vrusn\Desktop\Lego\Lego\bin\Debug\MonoBrick.dll
+C:\Users\vrusn\Desktop\Lego\Lego\bin\Debug\LibUsbDotNet.dll
+C:\Users\vrusn\Desktop\Lego\Lego\bin\Debug\MonoBrick.xml
+C:\Users\vrusn\Desktop\Lego\Lego\obj\Debug\Lego.exe
+C:\Users\vrusn\Desktop\Lego\Lego\obj\Debug\Lego.pdb
