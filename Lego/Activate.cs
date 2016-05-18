@@ -11,6 +11,12 @@ namespace Lego
     {
         private int counter;
 
+        private sbyte speed = 30;
+        private sbyte reverseSpeed = -30;
+
+        private UInt32 degrees = 110;
+        private UInt32 reverseDegrees = 110;
+
         /// <summary>
         /// Starts the movement of the lever.
         /// </summary>
@@ -26,17 +32,33 @@ namespace Lego
 
                 ev3.MotorA.ResetTacho();
 
-                ////Reset the EV3
-                //ev3.MotorA.MoveTo(20, 50, false);
+                //while (true)
+                //{
+                //    Console.WriteLine("enter speed: ");
+                //    string inputSpeed = Console.ReadLine();
+                //    Console.WriteLine("enter degree: ");
+                //    string inputDegree = Console.ReadLine();
 
-                for (int i = 0; i < 10; i++)
+                //    sbyte currSpeed;
+                //    sbyte.TryParse(inputSpeed, out currSpeed);
+
+                //    UInt32 degree;
+                //    UInt32.TryParse(inputDegree, out degree);
+
+                //    ev3.MotorA.On(currSpeed, degree, true);
+                //}
+
+                for (int i = 0; i < 5; i++)
                 {
-                    ev3.MotorA.On(30, 70, true);
+                    ev3.MotorA.On(speed, degrees, true);
                     System.Threading.Thread.Sleep(1000);
-                    ev3.MotorA.On(-30, 70, true);
+                    counter++;
+
+                    ev3.MotorA.On(reverseSpeed, reverseDegrees, true);
                     System.Threading.Thread.Sleep(1000);
                     counter++;
                 }
+
                 System.Threading.Thread.Sleep(3000);
                 ev3.MotorA.Off();
             }
@@ -48,6 +70,7 @@ namespace Lego
             {
                 ev3.Connection.Close();
                 Console.WriteLine("Success\nSteps: " + counter);
+                Console.ReadKey();
                 Environment.Exit(0);
             }
         }
