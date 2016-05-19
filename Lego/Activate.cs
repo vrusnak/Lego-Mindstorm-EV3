@@ -70,7 +70,6 @@ namespace Lego
             {
                 ev3.Connection.Close();
                 Console.WriteLine("Success\nSteps: " + counter);
-                Console.ReadKey();
                 Environment.Exit(0);
             }
         }
